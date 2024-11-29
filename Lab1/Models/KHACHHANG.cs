@@ -18,7 +18,18 @@ namespace Lab1.Models
         {
             this.DONDATHANGs = new HashSet<DONDATHANG>();
         }
-    
+
+        public KHACHHANG(string hoTen, string taikhoan, string matkhau, string email, string diachiKH, string dienthoaiKH, DateTime? ngaysinh)
+        {
+            HoTen = hoTen;
+            Taikhoan = taikhoan;
+            Matkhau = matkhau;
+            Email = email;
+            DiachiKH = diachiKH;
+            DienthoaiKH = dienthoaiKH;
+            Ngaysinh = ngaysinh;
+        }
+
         public int MaKH { get; set; }
         public string HoTen { get; set; }
         public string Taikhoan { get; set; }

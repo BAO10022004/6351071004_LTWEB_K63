@@ -1,0 +1,62 @@
+﻿@using Lab1.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2>GIO HANG</h2>
+<table>
+    <tr>
+        <td>
+            mã xe
+        </td>
+        <td>
+            tên xe
+        </td>
+        <td>
+            anh
+        </td>
+        <td>
+            Số lượng
+        </td>
+        <td>
+            Đơn giá
+        </td>
+        <td>
+            Thành tiền
+        </td>
+    </tr>
+    @foreach (Giohang xe in Model)
+    {
+        <tr>
+            <td>
+                @xe.iMaXeMay
+            </td>
+            <td>
+                @xe.sTenXe
+            </td>
+            <td>
+                <img src="~/images/@xe.sAnhBia" />
+            </td>
+            <td>
+                @xe.iSoLuong
+            </td>
+            <td>
+                @String.Format("0:0,0", xe.dDonGia)
+            </td>
+            <td>
+                @String.Format("0:0,0", xe.iThanhTien)
+            </td>
+        </tr>
+    }
+    <tr>
+        <td colspan="3">
+            Số lượng xe : @ViewData["TongSoLuong"]
+        </td>
+        <td colspan="3">
+            Tổng tiền : @String.Format("0:0,0", ViewData["TongTien"])
+        </td>
+    </tr>
+</table>
+

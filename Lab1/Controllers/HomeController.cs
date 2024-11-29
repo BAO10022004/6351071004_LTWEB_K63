@@ -7,6 +7,8 @@ using System.Runtime.Remoting.Contexts;
 using System.Web;
 using System.Web.Mvc;
 
+
+
 namespace Lab1.Controllers
 {
     public class HomeController : Controller

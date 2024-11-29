@@ -1,0 +1,242 @@
+﻿@using Lab1.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "DatHang";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+<style>
+    /* Reset và thiết lập chung */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #f44336;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        /* Định dạng cho tiêu đề của bảng */
+        table th {
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 18px;
+        }
+
+        /* Định dạng cho các ô trong bảng */
+        table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        /* Tạo hiệu ứng cho các dòng lẻ trong bảng */
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hiệu ứng hover cho các dòng */
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Hình ảnh sản phẩm */
+        table img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+    /* Các ô nhập liệu */
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        input[type="date"]:focus {
+            border-color: #f44336;
+            outline: none;
+        }
+
+    /* Nút submit */
+    input[type="submit"] {
+        background-color: #f44336;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        /* Nút submit khi hover */
+        input[type="submit"]:hover {
+            background-color: #d32f2f;
+        }
+
+    /* Phần thông tin tổng hợp (số lượng và tổng tiền) */
+    .totals {
+        background-color: #f1f1f1;
+        font-weight: bold;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .currency {
+        color: #f44336;
+    }
+
+    /* Định dạng cho liên kết quay lại */
+    .back-link {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 15px;
+        background-color: #f44336;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .back-link:hover {
+            background-color: #d32f2f;
+        }
+</style>
+
+
+<h2>DatHang</h2>
+<table>
+    <tr>
+        <th>Mã Xe</th>
+        <th>Tên Xe</th>
+        <th>Ảnh</th>
+        <th>Số Lượng</th>
+        <th>Đơn Giá</th>
+        <th>Thành Tiền</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (Giohang xe in Model)
+    {
+        <tr>
+            <td>@xe.iMaXeMay</td>
+            <td>@xe.sTenXe</td>
+            <td><img src="~/images/@xe.sAnhBia" alt="@xe.sTenXe" /></td>
+
+            @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaXe = xe.iMaXeMay }))
+            {
+                <td>
+                    <input type="number" min="1" name="SoLuong" value="@xe.iSoLuong" />
+                </td>
+                <td>@String.Format("{0:0,0}", xe.dDonGia)</td>
+                <td class="currency">@String.Format("{0:0,0}", xe.iThanhTien)</td>
+                <td>
+                    <input type="submit" value="Cập Nhật" />
+                </td>
+            }
+        </tr>
+    }
+    <tr class="totals">
+        <td colspan="3">Số lượng xe: @ViewData["TongSoLuong"]</td>
+        <td colspan="3">Tổng tiền: <span class="currency">@String.Format("{0:#,0}", ViewData["TongTien"])</span></td>
+    </tr>
+    <tr class="totals">
+        <td colspan="6"><a class="back-link" href="@Url.Action("GioHang", "GioHang")">Quay lại</a></td>
+    </tr>
+</table>
+
+<h2>Thông Tin Khách Hàng</h2>
+
+@{
+    KHACHHANG kh = (KHACHHANG)Session["Taikhoang"];
+}
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td><label for="MaKH">Mã Khách Hàng:</label></td>
+            <td>@kh.MaKH</td>
+        </tr>
+        <tr>
+            <td><label for="HoTen">Họ Tên:</label></td>
+            <td><input type="text" id="HoTen" name="HoTen" value="@kh.HoTen" /></td>
+        </tr>
+        <tr>
+            <td><label for="Taikhoan">Tài Khoản:</label></td>
+            <td><input type="text" id="Taikhoan" name="Taikhoan" value="@kh.Taikhoan" readonly /></td>
+        </tr>
+        <tr>
+            <td><label for="Matkhau">Mật Khẩu:</label></td>
+            <td><input type="password" id="Matkhau" name="Matkhau" value="@kh.Matkhau" /></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="email" id="Email" name="Email" value="@kh.Email" /></td>
+        </tr>
+        <tr>
+            <td><label for="DiachiKH">Địa Chỉ:</label></td>
+            <td><input type="text" id="DiachiKH" name="DiachiKH" value="@kh.DiachiKH" /></td>
+        </tr>
+        <tr>
+            <td><label for="DienthoaiKH">Điện Thoại:</label></td>
+            <td><input type="text" id="DienthoaiKH" name="DienthoaiKH" value="@kh.DienthoaiKH" /></td>
+        </tr>
+        <tr>
+            <td><label for="Ngaysinh">Ngày Sinh:</label></td>
+            <td><input type="date" id="Ngaysinh" name="Ngaysinh" value="@kh.Ngaysinh?.ToString(" yyyy-MM-dd")" /></td>
+        </tr>
+        <tr>
+            <td>Ngày Đặt : ></td>
+            <td>@DateTime.Now.ToShortDateString()</td>
+        </tr>
+        <tr>
+            <td>Ngày Giao : ></td>
+            <td><input type="date" name="Ngaygiao"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Đặt hàng" /></td>
+        </tr>
+    </table>
+}

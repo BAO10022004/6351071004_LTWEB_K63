@@ -63,7 +63,22 @@
         <tbody>
             @foreach (var xe in Model)
             {
-                <tr class="highlight"> <td>@xe.MaXe</td> <td>@xe.TenXe</td> <td class="price">@String.Format("{0:N0} VND", xe.Giaban)</td> <td>@xe.Mota</td> <td><img src="@xe.Anhbia" alt="@xe.TenXe" width="100"></td> <td>@xe.Ngaycapnhat</td> <td>@xe.Soluongton</td> <td>@xe.MaLX</td> <td>@xe.MaNPP</td> </tr>
+                <tr class="highlight">
+                    <td>@xe.MaXe</td>
+                    <td>@xe.TenXe</td>
+                    <td class="price">@String.Format("{0:N0} VND", xe.Giaban)</td>
+                    <td>@xe.Mota</td>
+                    <td><img src="@xe.Anhbia" alt="@xe.TenXe" width="100"></td>
+                    <td>@xe.Ngaycapnhat</td>
+                    <td>@xe.Soluongton</td>
+                    <td>@xe.MaLX</td>
+                    <td>@xe.MaNPP</td>
+                    <td>
+                        <div>
+                            <a href="@Url.Action("themGioHang", "GioHang", new {iMaXe =xe.MaXe, @strUrl = Request.Url.ToString()})">Đặt mua</a>
+                        </div>
+                    </td>
+                </tr>
             }
         </tbody>
     </table>

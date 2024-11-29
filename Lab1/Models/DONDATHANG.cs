@@ -18,7 +18,17 @@ namespace Lab1.Models
         {
             this.CHITIETDONTHANGs = new HashSet<CHITIETDONTHANG>();
         }
-    
+
+        public DONDATHANG(int maDonHang, bool? dathanhtoan, bool? tinhtranggiaohang, DateTime? ngaydat, DateTime? ngaygiao, int? maKH)
+        {
+            MaDonHang = maDonHang;
+            Dathanhtoan = dathanhtoan;
+            Tinhtranggiaohang = tinhtranggiaohang;
+            Ngaydat = ngaydat;
+            Ngaygiao = ngaygiao;
+            MaKH = maKH;
+        }
+
         public int MaDonHang { get; set; }
         public Nullable<bool> Dathanhtoan { get; set; }
         public Nullable<bool> Tinhtranggiaohang { get; set; }

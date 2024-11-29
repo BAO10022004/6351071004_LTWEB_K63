@@ -74,3 +74,7 @@ C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\EntityFramework.dll
 C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\EntityFramework.xml
 C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\EntityFramework.SqlServer.dll
 C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\EntityFramework.SqlServer.xml
+C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\PagedList.dll
+C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\PagedList.Mvc.dll
+C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\PagedList.xml
+C:\Users\giaba\source\repos\3\WebForm\ThucHanh\Lab1\Lab1\bin\PagedList.Mvc.xml

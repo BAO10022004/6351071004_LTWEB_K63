@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<Lab1.Models.XEGANMAY>
+
 @{
     Layout = "~/Views/Shared/View.cshtml";
 }
@@ -8,7 +9,7 @@
         <ul class="category_list">
             @foreach (var hang in ViewBag.HangSanXuat as IEnumerable<Lab1.Models.HANGSANXUAT>)
             {
-                <li><a href="@Url.Action("Index", new { categoryId = hang.MaHSX })">@hang.TenHSX</a></li>
+                <li><a href="@Url.Action("Index", new { XeId = hang.MaHSX })">@hang.TenHSX</a></li>
             }
         </ul>
     </div>
