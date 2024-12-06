@@ -1,0 +1,151 @@
+﻿@using Lab1.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+
+<h2 style="text-align: center; color: #333;">Giỏ Hàng</h2>
+
+<style>
+    /* Cấu hình nền cho bảng và trang */
+    body {
+        background-color: #f9f9f9; /* Nền sáng */
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        color: #444;
+        font-size: 24px;
+    }
+
+    /* Cấu trúc bảng */
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    /* Tiêu đề bảng */
+    th {
+        background-color: #ffefdb; /* Màu nền nhẹ nhàng cho tiêu đề */
+        color: #555;
+        padding: 15px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* Các ô dữ liệu */
+    td {
+        padding: 15px;
+        font-size: 14px;
+        text-align: left;
+        border-top: 1px solid #eee; /* Đường viền nhẹ giữa các hàng */
+    }
+
+        /* Căn chỉnh các ô số liệu (cột Số lượng, Đơn giá, Thành tiền) */
+        td:nth-child(4),
+        td:nth-child(5),
+        td:nth-child(6) {
+            text-align: right;
+        }
+
+    /* Căn chỉnh ảnh */
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Cải tiến kiểu hiển thị tổng số lượng và tổng tiền */
+    .totals {
+        text-align: right;
+        background-color: #ffefdb;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px;
+        color: #555;
+    }
+
+        .totals td {
+            padding: 10px;
+            text-align: right;
+        }
+
+    /* Thêm bo tròn cho các ô và bảng */
+    td, th {
+        border-radius: 5px;
+    }
+
+    /* Định dạng lại số tiền */
+    .currency {
+        font-weight: bold;
+        color: #ff6f61;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Mã Xe</th>
+        <th>Tên Xe</th>
+        <th>Ảnh</th>
+        <th>Số Lượng</th>
+        <th>Đơn Giá</th>
+        <th>Thành Tiền</th>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    @foreach (Giohang xe in Model)
+    {
+        <tr>
+            <td>@xe.iMaXeMay</td>
+            <td>@xe.sTenXe</td>
+            <td><img src="~/images/@xe.sAnhBia" alt="@xe.sTenXe" /></td>
+
+            @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaXe = xe.iMaXeMay }))
+            {
+                <td>
+                    <input type="number" min="1" name="SoLuong" value="@xe.iSoLuong" />
+                </td>
+                <td>@String.Format("{0:0,0}", xe.dDonGia)</td>
+                <td class="currency">@String.Format("{0:0,0}", xe.iThanhTien)</td>
+                <td>
+                    <a href="@Url.Action("Details","Home" , new { XeId = xe.iMaXeMay })">CHI TIET</a>
+                </td>
+                <td>
+                    @Html.ActionLink("Xoa", "XoaGioHang", new { iMaXe = xe.iMaXeMay })"
+                </td>
+                <td>
+                    <input type="submit" value="CapNhat" />
+                </td>
+            }
+        </tr>
+    }
+    <tr class="totals">
+        <td colspan="4">Số lượng xe: @ViewData["TongSoLuong"]</td>
+        <td colspan="5">Tổng tiền: <span class="currency">@String.Format("{0:#,0}", ViewData["TongTien"])</span></td>
+
+    </tr>
+    <tr class="totals">
+        <td colspan="9">@Html.ActionLink("XoaTatCa", "XoaTatCa")"</td>
+
+    </tr>
+    <tr class="totals">
+        <td colspan="9">@Html.ActionLink("Dat Hang", "DatHang")"</td>
+
+    </tr>
+</table>

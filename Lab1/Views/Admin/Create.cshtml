@@ -1,0 +1,111 @@
+﻿@model Lab1.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/LayOutLoginAdmin.cshtml";
+}
+<link href="~/Style/StyleSheetCreate.css" rel="stylesheet" />
+<h2>Create</h2>
+<script src="~/tinymce_7.5.1/tinymce/js/tinymce/tinymce.min.js"></script>
+<script>tinymce.init({ selector: 'textarea' });</script>
+
+@using (Html.BeginForm("Create", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>XEGANMAY</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <!-- MaXe -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaXe, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MaXe, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MaXe, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- TenXe -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.TenXe, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenXe, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TenXe, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Giaban -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Giaban, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Giaban, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Giaban, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Mota (Textarea with TinyMCE) -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Mota, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <textarea name="Mota" class="form-control"></textarea>
+            </div>
+        </div>
+
+        <!-- Anhbia (File Upload) -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Anhbia, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="file" class="form-control" />
+                @ViewBag.Thongbao
+            </div>
+        </div>
+
+        <!-- Ngaycapnhat (Date Input) -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Ngaycapnhat, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="date" name="Ngaycapnhat" class="form-control" />
+                @Html.ValidationMessageFor(model => model.Ngaycapnhat, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Soluongton -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Soluongton, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Soluongton, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Soluongton, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- MaLX (Dropdown List) -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaLX, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MaLX", null, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <!-- MaNPP (Dropdown List) -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaNPP, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MaNPP", null, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Back Link -->
+<div>
+    @Html.ActionLink("Back to List", "MotorbikeManage", new { @class = "btn btn-secondary" })
+</div>

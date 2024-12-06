@@ -1,0 +1,633 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\motorbikemanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\motorbikemanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\style\\templatemo_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:style\\templatemo_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\style\\stylesheetcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:style\\stylesheetcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\style\\loginadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:style\\loginadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\shared\\layoutloginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\shared\\layoutloginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\shared\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\shared\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\views\\nguoidung\\dangki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\nguoidung\\dangki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|c:\\users\\giaba\\source\\repos\\3\\webform\\thuchanh\\lab1\\lab1\\models\\qlxemay2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:models\\qlxemay2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7D0A01F2-8683-4120-AD76-03C67FEA88FB}|Lab1.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giaba\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Update.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Update.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Update.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:14:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:10:58.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAowIcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:06:59.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:25:38.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MotorbikeManage.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\MotorbikeManage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\MotorbikeManage.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\MotorbikeManage.cshtml",
+              "RelativeToolTip": "Views\\Admin\\MotorbikeManage.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:12:37.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:23:48.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwKwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:51:38.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginAdmin.css",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\LoginAdmin.css",
+              "RelativeDocumentMoniker": "Style\\LoginAdmin.css",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\LoginAdmin.css",
+              "RelativeToolTip": "Style\\LoginAdmin.css",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAowB8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T07:02:28.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StyleSheetCreate.css",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\StyleSheetCreate.css",
+              "RelativeDocumentMoniker": "Style\\StyleSheetCreate.css",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\StyleSheetCreate.css",
+              "RelativeToolTip": "Style\\StyleSheetCreate.css",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T08:33:41.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "templatemo_style.css",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\templatemo_style.css",
+              "RelativeDocumentMoniker": "Style\\templatemo_style.css",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Style\\templatemo_style.css",
+              "RelativeToolTip": "Style\\templatemo_style.css",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAgwGgBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T07:26:09.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThongKe.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\ThongKe.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ThongKe.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\ThongKe.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ThongKe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:42:16.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PagedList.css",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Content\\PagedList.css",
+              "RelativeDocumentMoniker": "Content\\PagedList.css",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Content\\PagedList.css",
+              "RelativeToolTip": "Content\\PagedList.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T10:05:47.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:27:08.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Content\\Site.css",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Content\\Site.css",
+              "RelativeToolTip": "Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T10:05:50.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Giohang.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\Giohang.cs",
+              "RelativeDocumentMoniker": "Models\\Giohang.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\Giohang.cs",
+              "RelativeToolTip": "Models\\Giohang.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:16:31.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:23:16.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LayOutLoginAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Shared\\LayOutLoginAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\LayOutLoginAdmin.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Shared\\LayOutLoginAdmin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\LayOutLoginAdmin.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:48:44.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Shared\\View.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\View.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Shared\\View.cshtml",
+              "RelativeToolTip": "Views\\Shared\\View.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T07:41:38.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NguoiDungController.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "Controllers\\NguoiDungController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA5wBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T06:39:04.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QLXEMAY2.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\QLXEMAY2.edmx",
+              "RelativeDocumentMoniker": "Models\\QLXEMAY2.edmx",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\QLXEMAY2.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\QLXEMAY2.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-06T06:41:16.624Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:40:58.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T08:49:05.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:40:49.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "Views\\NguoiDung\\DangNhap.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\NguoiDung\\DangNhap.cshtml",
+              "RelativeToolTip": "Views\\NguoiDung\\DangNhap.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAE0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:01:21.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DangKi.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\NguoiDung\\DangKi.cshtml",
+              "RelativeDocumentMoniker": "Views\\NguoiDung\\DangKi.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\NguoiDung\\DangKi.cshtml",
+              "RelativeToolTip": "Views\\NguoiDung\\DangKi.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAiwJ0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T06:39:57.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "KHACHHANG.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\KHACHHANG.cs",
+              "RelativeDocumentMoniker": "Models\\KHACHHANG.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Models\\KHACHHANG.cs",
+              "RelativeToolTip": "Models\\KHACHHANG.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:43:04.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowDkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T06:36:42.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:18:59.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:42:01.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DatHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\DatHang.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\DatHang.cshtml",
+              "ViewState": "AgIAANQAAAAAAAAAAAAMwOsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T12:05:17.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PerfCounters.cs",
+              "DocumentMoniker": "C:\\Users\\giaba\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "ToolTip": "C:\\Users\\giaba\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAMwFQAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:40:27.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GiohangPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\GiohangPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\GiohangPartial.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\GiohangPartial.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\GiohangPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:48:41.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Xacnhandonhang.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\Xacnhandonhang.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\Xacnhandonhang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\Xacnhandonhang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T12:40:10.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T10:16:58.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\web.config",
+              "RelativeDocumentMoniker": "Views\\web.config",
+              "ToolTip": "C:\\Users\\giaba\\source\\repos\\3\\WebForm\\ThucHanh\\Lab1\\Lab1\\Views\\web.config",
+              "RelativeToolTip": "Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T10:40:20.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

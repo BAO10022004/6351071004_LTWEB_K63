@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Lab1.Models.XEGANMAY>
+
+@{
+    Layout = "~/Views/Shared/View.cshtml";
+}
+@section Sidebar {
+    <div class="sidebar">
+        <h3>Categories</h3>
+        <ul class="category_list">
+            @foreach (var hang in ViewBag.HangSanXuat as IEnumerable<Lab1.Models.HANGSANXUAT>)
+            {
+                <li><a href="@Url.Action("Index", new { XeId = hang.MaHSX })">@hang.TenHSX</a></li>
+            }
+        </ul>
+    </div>
+}
+<h2>Portfolio</h2>
+@foreach (var xe in Model)
+{
+
+    <div class="product_box margin_r_10">
+
+        <a href="@Url.Action("Details", "Home", new { XeId = xe.MaXe })"><img src="@xe.Anhbia" alt="image" /></a>
+        <h3>@xe.TenXe</h3>
+        <p>@xe.Giaban<a href="work_detail.html">More...</a></p>
+    </div>
+
+}
+
+@*<div class="product_box margin_r_10">
+        <a href="work_detail.html"><img src="~/images/templatemo_image_01.jpg" alt="image" /></a>
+        <h3>Project One</h3>
+        <p>Etiam molestie massa nec nulla sagittis et luctus nulla ullamcorper a porttitor est. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="product_box margin_r_10">
+        <a href="work_detail.html"><img src="~/images/templatemo_image_02.jpg" alt="image" /></a>
+        <h3>Project Two</h3>
+        <p>Aenean aliquam ullamcorper metus, at cursus elit sodales dignissim. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="product_box margin_r_10">
+
+        <a href="work_detail.html"><img src="~/images/templatemo_image_03.jpg" alt="image" /></a>
+        <h3>Project Three</h3>
+        <p>Nam sed volutpat ipsum. Phasellus pharetra pellentesque leo ac posuere. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="product_box">
+
+        <a href="work_detail.html"><img src="~/images/templatemo_image_04.jpg" alt="image" /></a>
+        <h3>Project Four</h3>
+        <p>Proin rutrum neque vitae nisi venenatis blandit in ac dui. Curabitur ultricies semper. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="cleaner"></div>
+
+    <div class="product_box margin_r_10">
+
+        <a href="work_detail.html">
+            <img src="~/images/templatemo_image_05.jpg" alt="image" />
+        </a>
+        <h3>Project Five</h3>
+        <p>Mauris dignissim vehicula sapien, in accumsan quam commodo venenatis. <a href="work_detail.html">More...</a> </p>
+    </div>
+
+    <div class="product_box margin_r_10">
+        <a href="work_detail.html">
+            <img src="~/images/templatemo_image_06.jpg" alt="image" />
+        </a>
+        <h3>Project Six</h3>
+        <p>Morbi ultrices congue nunc sit amet rutrum. Ut pretium diam eu diam volutpat laoreet. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="product_box margin_r_10">
+
+        <a href="work_detail.html"><img src="~/images/templatemo_image_07.jpg" alt="image" /></a>
+        <h3>Project Seven</h3>
+        <p>Duis facilisis ante sit amet libero sodales cursus vehicula urna euismod ultricies. <a href="work_detail.html">More...</a></p>
+
+    </div>
+
+    <div class="product_box">
+
+        <a href="work_detail.html"><img src="~/images/templatemo_image_08.jpg" alt="image" /></a>
+        <h3>Project Eight</h3>
+        <p>Proin vitae felis in urna laoreet suscipit. Integer consequat felis in justo sagittis. <a href="work_detail.html">More...</a></p>
+    </div>
+
+    <div class="cleaner_h20"></div>
+
+    <div class="button_01"><a href="#">View All</a></div>
+
+    <div class="cleaner"></div>*@

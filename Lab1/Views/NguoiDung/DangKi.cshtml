@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewBag.Title = "DangKi";
+    Layout = "~/Views/Shared/View.cshtml";
+}
+<style>
+    /* Container cho form */
+    table {
+        width: 100%;
+        max-width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-collapse: collapse;
+    }
+
+    /* Tiêu đề */
+    h2 {
+        text-align: center;
+        color: #d32f2f;
+        margin-bottom: 20px;
+    }
+
+    /* Các hàng trong bảng */
+    tr.trStyle {
+        padding: 10px;
+        height: 40px;
+    }
+
+    /* Các ô của bảng */
+    td {
+        padding: 8px;
+    }
+
+        /* Label cho các trường thông tin */
+        td:first-child {
+            font-weight: bold;
+            color: #333;
+        }
+
+    /* Các trường nhập liệu */
+    input[type="text"],
+    input[type="password"],
+    input[type="date"] {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    /* Nút đăng ký */
+    input[type="submit"] {
+        background-color: #d32f2f;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        /* Nút đăng ký khi hover */
+        input[type="submit"]:hover {
+            background-color: #b71c1c;
+        }
+</style>
+<table>
+    <h2>DANG KI</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        {
+            <tr class="trStyle">
+                <td>
+                    NAME:
+                </td>
+                <td>
+                    @Html.TextBox("name")
+                    @ViewData["Loi1"]
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    USERNAME:
+                </td>
+                <td>
+                    @Html.TextBox("username")
+                    @ViewData["Loi2"]
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    Email:
+                </td>
+                <td>
+                    @Html.TextBox("email")
+                    @ViewData["Loi3"]
+
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    PASSWORD:
+                </td>
+                <td>
+                    @Html.Password("password")
+                    @ViewData["Loi4"]
+
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    CONFIRMPASSWORD :
+                </td>
+                <td>
+                    @Html.Password("confirm")
+                    @ViewData["Loi5"]
+
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    ADDRESS:
+                </td>
+                <td>
+                    @Html.TextBox("address")
+                    @ViewData["Loi6"]
+
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    NUMBERPHONE:
+                </td>
+                <td>
+                    @Html.TextBox("numberphone")
+                    @ViewData["Loi7"]
+
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                    NGAYSINH:
+                </td>
+                <td>
+                    <input type="date" name="ngaysinh">
+                    @ViewData["Loi8"]
+                </td>
+            </tr>
+            <tr class="trStyle">
+                <td>
+                </td>
+                <td>
+                    <input type="Submit" name="dangki">
+
+                </td>
+            </tr>
+        }
+    }
+</table>

@@ -1,0 +1,177 @@
+﻿@model Lab1.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/LayOutLoginAdmin.cshtml";
+}
+
+<!-- Thêm phần CSS trực tiếp vào đây -->
+<style>
+    /* Style cho ảnh */
+    .image-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Các kiểu đã có trước đó */
+    h2 {
+        font-size: 28px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 24px;
+        color: #4CAF50;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .dl-horizontal dt {
+        font-weight: bold;
+        width: 150px;
+        float: left;
+        clear: both;
+        padding-right: 20px;
+        text-align: right;
+        color: #555;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 170px;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    p a {
+        font-size: 16px;
+        color: #007bff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+    hr {
+        border: 1px solid #e0e0e0;
+        margin-bottom: 20px;
+    }
+
+    div {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+   
+</style>
+
+<h2>Details</h2>
+
+<div>
+    <h4>XEGANMAY</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaXe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaXe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenXe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenXe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Giaban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giaban)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anhbia)
+        </dt>
+
+        <dd class="image-container">
+            @if (Model.Anhbia != null && Model.Anhbia != "")
+            {
+                <img src="@Url.Content(Model.Anhbia)" alt="Image of @Model.TenXe" />
+            }
+            else
+            {
+                <span>No image available</span>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaycapnhat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soluongton)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaLX)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaLX)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaNPP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNPP)
+        </dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaXe }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
